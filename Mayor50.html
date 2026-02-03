@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Ingresa un número</h3>
+    <input type="number" id="numero" placeholder="Ejemplo: 60">
+    <br>
+    <button class="btn">Verificar</button>
+    <p id="resultado"></p>
+
+    <script>
+        const btn = document.querySelector(".btn")
+        const resultado = document.querySelector("#resultado")
+        btn.addEventListener("click", ()=>{
+            const numero = document.querySelector("#numero").value
+            //alert(numero)
+            if(numero>50) {
+                resultado.innerHTML="Superaste la cantidad"
+            } else {
+                resultado.innerHTML = "No superaste la cantidad"
+            }
+        })
+
+    </script>
+</body>
+</html>
