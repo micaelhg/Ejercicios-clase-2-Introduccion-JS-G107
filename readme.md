@@ -1,4 +1,5 @@
-#Segunda clase
+**Segunda clase**
+
 En este repositorio se encuentran los 3 ejercicios trabajados en la segunda clase de Introducción a Javascript del grupo G107.
 
 1. temperatura.html --> Solicita valor numerico de temperatura y devuelve un comentario sobre la misma.
